@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+    
+
+body{
+    background-color: black;
+    
+}
+
+h1{
+    font-family: henny penny;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sec-1{
+    display: flex;
+    justify-content: center;
+}
+
+.listButton, .gridButton{
+    color: white;
+    background-color: black;
+    border: none;
+    margin-top: 30px;
+    margin-left: 30px;
+    transform: scale(1.5);
+    
+}
+
+.listButton:hover, .gridButton:hover{
+    transition: transform .5s ease;
+        cursor: pointer;
+        transform: scale(1.8);
+}
+
+
+
+
+
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin: 30px;
+
+
+}
+
+.gridName{
+    font-family: henny penny;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.listName{
+    font-family: henny penny;
+    font-size: 30px;
+    color: white;
+    margin-top: 50px;
+    
+}
+
+.gridMedia{
+    font-family: roboto;
+    font-weight: 300;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.listMedia{
+    font-family: roboto;
+    font-weight: 300;
+    color: white;
+    font-size: 14px;
+    margin-top: 70px;
+}
+
+.gridImg{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: white solid 3px;
+}
+
+.listImg{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: white solid 3px;
+}
+
+.gridImg:hover,.listImg:hover{
+transform: scale(1.1);
+transition: transform .5s ease;
+
+}
+
+.characterGrid{
+    background:transparent linear-gradient(180deg, #000000 0%, #590505 100%) 0% 0% no-repeat padding-box;
+      color: #fff;
+      cursor: default;
+      padding: 18px;
+      border-radius: 10px;
+      border: white solid 3px;
+      text-align: center;
+      
+      
+      transition: 0.4s;
+      
+      
+      margin: 20px;
+      width: 280px;
+      height: 350px;
+}
+
+.characterList{
+    background:transparent linear-gradient(180deg, #000000 0%, #590505 100%) 0% 0% no-repeat padding-box;
+
+    width: 1200px;
+    height: 200px;
+    
+    border-radius: 10px;
+    border: white solid 3px;
+    padding: 18px;
+    margin:20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    font-family: roboto;
+    width: 130px;
+    height: 30px;
+    border: white solid 1px;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.list{
+    font-family: roboto;
+    width: 260px;
+    height: 60px;
+    border: white solid 1px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.grid:hover, .list:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+    transition: transform .5s ease;
+}
+
+@media (max-width: 750px){
+
+    h1{
+        font-size: 28px;
+    }
+
+.listName{
+    font-size: 18px;
+    margin: 10px;
+    
+}
+
+.listMedia{
+    display: none;
+}
+
+.list{
+    width: 150px;
+    height: 30px;
+    font-size: 8px;
+    margin: 10px;
+}
+
+.characterList{
+    width: 300px;
+    height: 100px;
+}
+
+.listImg{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.characterGrid{
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.gridImg{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.gridName{
+    font-size: 14px;
+    margin: 5px;
+}
+
+.gridMedia{
+    font-size: 8px;
+    margin: 5px;
+    display: none;
+}
+
+.grid{
+    width: 50px;
+    height: 20px;
+    font-size: 5px;
+    margin-top: 0px;
+    margin: 5px;
+}
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
