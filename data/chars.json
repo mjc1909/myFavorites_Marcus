@@ -1,63 +1,66 @@
 [
     
     {
+        "id": 1,
         "img":"../img/Daenerys.jpg" ,
         "name": "Daenerys",
-        "media": "A Song of Ice and Fire",
-        "button": "Læs mere >"
+        "media": "A Song of Ice and Fire"
+        
     },
 
-{
+{ 
+        "id": 2, 
         "img":"../img/GANDALF.jpg" ,
         "name": "Gandalf",
-        "media": "Lord of the Rings",
-        "button": "Læs mere >"
+        "media": "Lord of the Rings"
+        
     
     },
 
 {
+        "id": 3,
         "img":"../img/Aragorn.jpg" ,
         "name": "Aragorn",
-        "media": "Lord of the Rings",
-        "button": "Læs mere >"
+        "media": "Lord of the Rings"
+        
     },
 
 {
+        "id": 4,
         "img":"../img/Atreides.jpg" ,
         "name": "Paul Atreides",
-        "media": "Dune",
-        "button": "Læs mere >"
+        "media": "Dune"
     },
 
 {
+        "id": 5,
         "img":"../img/Tony.jpg" ,
         "name": "Tony Montana",
-        "media": "Scarface",
-        "button": "Læs mere >"
+        "media": "Scarface"
     
     },
 
 {
+        "id": 6,
         "img":"../img/Ripley.jpg" ,
         "name": "Ripley",
-        "media": "Alien",
-        "button": "Læs mere >"
+        "media": "Alien"
     
     },
 
 {
+        "id": 7,
         "img":"../img/Frank.jpg" ,
         "name": "Frank",
-        "media": "It's Always Sunny",
-        "button": "Læs mere >"
+        "media": "It's Always Sunny"
     
     },
 
 {
+        "id": 8,
         "img":"../img/Valentine.jpg" ,
         "name": "Nick Valentine",
-        "media": "Fallout 4",
-        "button": "Læs mere >"
+        "media": "Fallout 4"
     
     }
 

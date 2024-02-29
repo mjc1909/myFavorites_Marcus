@@ -5,6 +5,11 @@
     padding: 0;
     margin: 0;
 }
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
     
 
 body{
@@ -104,23 +109,25 @@ transition: transform .5s ease;
 
 }
 
+
 .characterGrid{
     background:transparent linear-gradient(180deg, #000000 0%, #590505 100%) 0% 0% no-repeat padding-box;
-      color: #fff;
-      cursor: default;
-      padding: 18px;
-      border-radius: 10px;
-      border: white solid 3px;
-      text-align: center;
-      
-      
-      transition: 0.4s;
-      
-      
-      margin: 20px;
-      width: 280px;
-      height: 350px;
+    color: #fff;
+    cursor: default;
+    padding: 18px;
+    border-radius: 10px;
+    border: white solid 3px;
+    text-align: center;
+    
+    
+    transition: 0.4s;
+    
+    
+    margin: 20px;
+    width: 280px;
+    height: 350px;
 }
+
 
 .characterList{
     background:transparent linear-gradient(180deg, #000000 0%, #590505 100%) 0% 0% no-repeat padding-box;
